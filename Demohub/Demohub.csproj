@@ -67,13 +67,78 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ad.xml" />
+    <Content Include="Assignment1Q%281%29.aspx" />
+    <Content Include="Assignment1Q%282%29.aspx" />
+    <Content Include="Assignment1Q%283%29.aspx" />
+    <Content Include="Assignment1Q%284%29.aspx" />
+    <Content Include="main.aspx" />
+    <Content Include="masterpage1.aspx" />
+    <Content Include="Screenshot %28384%29.png" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assignment1Q%281%29.aspx.cs">
+      <DependentUpon>Assignment1Q%281%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment1Q%281%29.aspx.designer.cs">
+      <DependentUpon>Assignment1Q%281%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment1Q%282%29.aspx.cs">
+      <DependentUpon>Assignment1Q%282%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment1Q%282%29.aspx.designer.cs">
+      <DependentUpon>Assignment1Q%282%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment1Q%283%29.aspx.cs">
+      <DependentUpon>Assignment1Q%283%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment1Q%283%29.aspx.designer.cs">
+      <DependentUpon>Assignment1Q%283%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment1Q%284%29.aspx.cs">
+      <DependentUpon>Assignment1Q%284%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment1Q%284%29.aspx.designer.cs">
+      <DependentUpon>Assignment1Q%284%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterpage1.aspx.cs">
+      <DependentUpon>masterpage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage1.aspx.designer.cs">
+      <DependentUpon>masterpage1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
